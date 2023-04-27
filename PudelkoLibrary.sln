@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PudelkoLib", "Pudelko\PudelkoLib.csproj", "{C26A6EE1-FFFC-4BAD-8EB1-5512399E15E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PudelkoUnitTests", "PudelkoUnitTests\PudelkoUnitTests.csproj", "{4861967C-D21C-4468-8715-794B45A9AD72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PudelkoUnitTests", "PudelkoUnitTests\PudelkoUnitTests.csproj", "{4861967C-D21C-4468-8715-794B45A9AD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F4D73E00-0450-4664-A093-9BE56CCDB67E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C26A6EE1-FFFC-4BAD-8EB1-5512399E15E1} = {C26A6EE1-FFFC-4BAD-8EB1-5512399E15E1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{4861967C-D21C-4468-8715-794B45A9AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4861967C-D21C-4468-8715-794B45A9AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4861967C-D21C-4468-8715-794B45A9AD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D73E00-0450-4664-A093-9BE56CCDB67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D73E00-0450-4664-A093-9BE56CCDB67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D73E00-0450-4664-A093-9BE56CCDB67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D73E00-0450-4664-A093-9BE56CCDB67E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
